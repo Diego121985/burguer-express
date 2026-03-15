@@ -101,7 +101,7 @@ export const LogoText = styled.h1`
 `;
 export const ErrorMessage = styled.p`
   background: #ffe5e5;
-  color: #d8000c;
+  color: #d80913;
   padding: 10px;
   border-radius: 6px;
   font-size: 14px;

@@ -4,16 +4,12 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./styles/global.css";
 import { CartProvider } from "./contexts/CartContext";
-import { ProductsProvider } from "./contexts/ProductsContext";
-import { HashRouter } from "react-router-dom";
-const root = ReactDOM.createRoot(document.getElementById("root"));
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HashRouter>
-    <ProductsProvider>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </ProductsProvider>
-  </HashRouter>
+ <BrowserRouter basename="/burger-express">
+    <CartProvider>
+      <App />
+    </CartProvider>
+  </BrowserRouter>
 );
