@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/burger-express/static/css/main.6495c9ff.css",
-    "main.js": "/burger-express/static/js/main.05862753.js",
-    "index.html": "/burger-express/index.html",
-    "main.6495c9ff.css.map": "/burger-express/static/css/main.6495c9ff.css.map",
-    "main.05862753.js.map": "/burger-express/static/js/main.05862753.js.map"
+    "main.css": "/burguer-express/static/css/main.6495c9ff.css",
+    "main.js": "/burguer-express/static/js/main.ca34fd9f.js",
+    "index.html": "/burguer-express/index.html",
+    "main.6495c9ff.css.map": "/burguer-express/static/css/main.6495c9ff.css.map",
+    "main.ca34fd9f.js.map": "/burguer-express/static/js/main.ca34fd9f.js.map"
   },
   "entrypoints": [
     "static/css/main.6495c9ff.css",
-    "static/js/main.05862753.js"
+    "static/js/main.ca34fd9f.js"
   ]
 }
